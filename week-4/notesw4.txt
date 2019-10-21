@@ -1,0 +1,20 @@
+Week Four
+
+Day 10
+
+Web browser, or browser is a program used to access information on the World Wide Web
+
+API - application programming interface - using programs to talk to other software
+
+Web APIs - 
+
+Eg using javascript to manipulate the website properties (that is an example of API use)
+
+
+Window - reserved keyword, console.log(this) will output window
+
+Document Object Model (DOM) - representation of document as an object (Like a family tree there are parents, siblings, and children nodes)
+
+Traversing the DOM - going between the relationships of different nodes
+
+Document.querySelector()- is like getElementByID()/getElementByClass() but more recent 
