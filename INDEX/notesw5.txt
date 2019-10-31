@@ -1,0 +1,12 @@
+Week 5
+
+Day 13
+
+JQuery - cross platform Javascript library 
+$ variable specific to jQuery - when using jQ library
+Good practice to run jQuery after document.ready (html has been parsed fully) because jQuery needs to fetch the library(cdn)
+
+Day 14
+
+$(this).attr (points to the target which triggered the event (eg. Click))
+
