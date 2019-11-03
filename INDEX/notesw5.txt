@@ -10,3 +10,11 @@ Day 14
 
 $(this).attr (points to the target which triggered the event (eg. Click))
 
+Day 15
+
+this within a method refers to the object containing the method
+
+calling this in a function refers to the window
+
+unless you bind the function to an object with anonymous arrow function
+
