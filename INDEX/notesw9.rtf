@@ -24,4 +24,29 @@ does not have access to the window object\
 \
 process.argv = an array that by default has two elements [location of node, location of file, arguments go here\'85\'85\'85..]\
 \
-npm install in terminal will create a package.json which is like a manifest that contains metadata for the project}
+npm install in terminal will create a package.json which is like a manifest that contains metadata for the project\
+\
+
+\f0\b Day 26\
+\
+ES6\
+\
+
+\f1\b0 Arrow Functions - arrow function in a method (function within a method (function) within an object) will bind the context of \'91this\'92 from the parent (in this case, the method), into the arrow function\
+\
+*don\'92t use arrows function as a method - otherwise it refers to window (in browser) or module.exports (node.js)\
+\
+if you declare anything not object or array, it points to (parsed by) value - can only change by reassignment\
+\
+template literal\
+\
+Spread\
+\
+\
+
+\f0\b Day 27\
+\
+
+\f1\b0 Promise object - takes a .then() method. It will then be available to the next .then() as an argument\
+\
+Promise needs to specify two conditions = a resolve if successful and a reject if there is an error}
