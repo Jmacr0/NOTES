@@ -3,4 +3,15 @@
 // Return the common number
 // You may not use the `indexOf` or `includes` method
 
-var commonElement = function(arrA, arrB) {};
+var commonElement = function(arrA, arrB) {
+   const object = {};
+   for(num of arrA){
+       object[num] = true;
+   }
+
+   for(num of arrB){
+       if(object[num] === true){
+           return num;
+       }
+   }
+};
